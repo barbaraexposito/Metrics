@@ -16,6 +16,4 @@ public class FileLoader {
    public boolean hasNext(){
        return true;
    }
-    
-   
 }

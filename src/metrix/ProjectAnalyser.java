@@ -20,9 +20,6 @@ public class ProjectAnalyser {
         this.fileLoader = new FileLoader(new File(projectPath));
     }
     
-    public void analyse(){
-        PackageCounter packageCounter = new PackageCounter();
-        while(fileLoader.hasNext())
-        classes += packageCounter.count(fileLoader.nextFile());
+    public void analyseProject(){
     }
 }
