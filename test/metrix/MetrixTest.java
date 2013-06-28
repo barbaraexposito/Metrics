@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 public class MetrixTest {
     
-    @Test
+    /*@Test
     public void testMetrics(){
         ProjectAnalyser analyser = getProjectAnalizer();
         analyser.analyseProject();
@@ -28,5 +28,5 @@ public class MetrixTest {
     
     private String getSourceFolder(){
         return "Metrix/resources";
-    }
+    }*/
 }
